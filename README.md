@@ -32,7 +32,7 @@ $db = new Db();
 Everytime an exception is thrown by the database class a log file gets created or modified.
 These logs are stored in the logs directory. Which means the database class needs write access for the logs folder.
 If the files are on a webserver you'll have to modify the rights of the root folder otherwise you'll get a "Permission denied" error.
-
+jj
 The log file is a simple plain text file with the current date('year-month-day') as filename.
 
 ## Examples
